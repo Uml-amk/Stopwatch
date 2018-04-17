@@ -1,0 +1,39 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 2;
+	- value = "DefaultComponent/DefaultConfig/Default/radio_unit.java" 4.16.2018::15:36:19
+	"DefaultComponent/DefaultConfig/Default/watch_wearer.java" 4.16.2018::15:36:19
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID a904a57b-f377-479e-8a79-1016ff3402f4" "GUID 977198af-909f-4235-ac6e-d8ef2978fbd7"
+	"GUID a94932d7-97db-4f27-8016-a639278a1510" "GUID 977198af-909f-4235-ac6e-d8ef2978fbd7"
+	
+}
+- size = 3;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "C:\\Users\\Alex\\IBM\\Rational\\Rhapsody\\8.2.1\\Stopwatch\\Stopwatch_rpy\\DefaultComponent.cmp";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 9e1b945f-dcae-4de4-a2cd-21949f912e8c;
+}
+- genTime = 4.16.2018::15:36:19;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "C:\\Users\\Alex\\IBM\\Rational\\Rhapsody\\8.2.1\\Stopwatch\\Stopwatch_rpy\\Default.sbs";
+	- _subsystem = "Default";
+	- _name = "radio_unit";
+	- _id = GUID ec119055-601e-4b72-8731-ce00b210ddb9;
+}
+- genTime = 4.16.2018::15:36:19;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "C:\\Users\\Alex\\IBM\\Rational\\Rhapsody\\8.2.1\\Stopwatch\\Stopwatch_rpy\\Default.sbs";
+	- _subsystem = "Default";
+	- _name = "watch_wearer";
+	- _id = GUID ec1bb3f9-86ce-415d-af46-6b5dcdff3430;
+}
+- genTime = 4.16.2018::15:36:19;
+

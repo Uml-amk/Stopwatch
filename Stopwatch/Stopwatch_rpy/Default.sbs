@@ -3,28 +3,679 @@ I-Logix-RPY-Archive version 8.14.0 Java 9810313
 	- _id = GUID a904a57b-f377-479e-8a79-1016ff3402f4;
 	- _myState = 8192;
 	- _name = "Default";
-	- Annotations = { IRPYRawContainer 
-		- size = 0;
-	}
-	- _modifiedTimeWeak = 4.16.2018::16:39:30;
-	- _lastID = 15;
-	- weakCGTime = 4.16.2018::16:39:30;
-	- strongCGTime = 1.2.1990::0:0:0;
+	- _modifiedTimeWeak = 4.23.2018::15:42:43;
+	- _lastID = 27;
+	- weakCGTime = 4.23.2018::15:44:27;
+	- strongCGTime = 4.23.2018::15:44:27;
 	- _defaultComposite = GUID b04dec59-d127-46c3-a3ff-db0f0ef7e3b7;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
-		- size = 1;
+		- size = 6;
 		- value = 
 		{ IClass 
 			- _id = GUID b04dec59-d127-46c3-a3ff-db0f0ef7e3b7;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- weakCGTime = 1.2.1990::0:0:0;
-			- strongCGTime = 1.2.1990::0:0:0;
+			- _modifiedTimeWeak = 4.23.2018::15:44:27;
+			- weakCGTime = 4.23.2018::15:44:27;
+			- strongCGTime = 4.23.2018::15:44:27;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID bbb98573-b100-41e5-b468-60eca8a1ab3d;
+			- _myState = 8192;
+			- _name = "Button";
+			- _modifiedTimeWeak = 4.23.2018::16:40:29;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _name = "Stopwatch_and_timer_object_diagram";
+				- _id = GUID 02e5c7fc-a3f1-46ac-886d-70f4f69604e5;
+			}
+			- _lastID = 5;
+			- weakCGTime = 4.23.2018::16:40:29;
+			- strongCGTime = 4.23.2018::15:44:27;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ITriggered 
+					- _id = GUID b0f330df-0919-4890-a015-49d818cd3812;
+					- _myState = 8192;
+					- _name = "evPress";
+					- _modifiedTimeWeak = 4.23.2018::16:9:4;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAttribute 
+					- _id = GUID fd9eaaf9-f949-443a-a29b-39c31a2beb79;
+					- _myState = 8192;
+					- _name = "type";
+					- _modifiedTimeWeak = 4.23.2018::15:44:27;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "String";
+						- _id = GUID cb97d0d7-bf5d-4020-b25e-f6a87117705a;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 43578392-4dcb-4645-bd4d-a880695cc435;
+					- _myState = 10240;
+					- _name = "itsController_1";
+					- _modifiedTimeWeak = 4.23.2018::15:40:31;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 698bf3eb-80be-4b03-a8a7-ab2ae0bafd95;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- Qualifiers = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 3dda0aaa-ea62-4c96-8e0d-a8a333c2744b;
+			- _myState = 8192;
+			- _name = "LED";
+			- _modifiedTimeWeak = 4.23.2018::16:0:54;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _name = "Stopwatch_and_timer_object_diagram";
+				- _id = GUID 02e5c7fc-a3f1-46ac-886d-70f4f69604e5;
+			}
+			- _lastID = 4;
+			- weakCGTime = 4.23.2018::16:0:54;
+			- strongCGTime = 4.23.2018::15:44:27;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 37793e3b-7ee6-4456-a0a4-79bcf239ad2b;
+					- _myState = 8192;
+					- _name = "glow";
+					- _modifiedTimeWeak = 4.23.2018::16:0:21;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID d2da4f12-bd9a-45cc-b767-e19603f2189d;
+					- _myState = 8192;
+					- _name = "blink";
+					- _modifiedTimeWeak = 4.23.2018::16:0:27;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 6061df1a-0d04-4ace-af11-c17243d84098;
+			- _myState = 8192;
+			- _name = "Radio_Unit";
+			- _modifiedTimeWeak = 4.23.2018::16:13:2;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _name = "Stopwatch_and_timer_object_diagram";
+				- _id = GUID 02e5c7fc-a3f1-46ac-886d-70f4f69604e5;
+			}
+			- _lastID = 4;
+			- weakCGTime = 4.23.2018::16:13:2;
+			- strongCGTime = 4.23.2018::15:40:4;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 185420b4-9d45-4bce-b3ab-47bd40913383;
+					- _myState = 8192;
+					- _name = "getCurrent_time";
+					- _modifiedTimeWeak = 4.23.2018::15:52:15;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "long";
+						- _id = GUID 4d5eb3a0-ccb1-49a2-8f98-a5070f406b51;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 9956d4a7-ef9c-4695-a3f7-6429bc8c8120;
+			- _myState = 8192;
+			- _name = "Display";
+			- _modifiedTimeWeak = 4.23.2018::16:5:40;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _name = "Stopwatch_and_timer_object_diagram";
+				- _id = GUID 02e5c7fc-a3f1-46ac-886d-70f4f69604e5;
+			}
+			- _lastID = 3;
+			- weakCGTime = 4.23.2018::16:5:40;
+			- strongCGTime = 4.23.2018::15:44:27;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 7f4e4d7b-dfd6-4f88-877e-2eb527c7f18d;
+					- _myState = 8192;
+					- _name = "displayCurrentTime";
+					- _modifiedTimeWeak = 4.23.2018::16:5:34;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 698bf3eb-80be-4b03-a8a7-ab2ae0bafd95;
+			- _myState = 8192;
+			- _name = "Controller";
+			- _modifiedTimeWeak = 4.23.2018::16:49:32;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _name = "Class Diagram 1";
+				- _id = GUID be306bde-bfa5-4d9b-b913-306eba44ae02;
+			}
+			- _lastID = 25;
+			- weakCGTime = 4.23.2018::16:49:32;
+			- strongCGTime = 4.23.2018::15:40:4;
+			- Operations = { IRPYRawContainer 
+				- size = 12;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 3837a8fb-934d-44a8-955d-a9613ead7729;
+					- _myState = 8192;
+					- _name = "switchMode";
+					- _modifiedTimeWeak = 4.23.2018::16:6:16;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 88170c72-2599-492b-a918-bf14356cb019;
+					- _myState = 8192;
+					- _name = "increaseTime";
+					- _modifiedTimeWeak = 4.23.2018::16:25:51;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID cacf0a64-ddf6-437c-b6c5-c0207c34032b;
+					- _myState = 8192;
+					- _name = "decreaseTime";
+					- _modifiedTimeWeak = 4.23.2018::16:25:59;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 41bc576b-39a8-4c58-8b46-bd6ab4439dd2;
+					- _myState = 8192;
+					- _name = "startCountdown";
+					- _modifiedTimeWeak = 4.23.2018::16:43:4;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID d894fa70-7948-4001-bdab-7a389a491574;
+					- _myState = 8192;
+					- _name = "stopCountdown";
+					- _modifiedTimeWeak = 4.23.2018::16:43:17;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID bb30548b-d910-4846-b1ea-bfc02e4f86e7;
+					- _myState = 8192;
+					- _name = "startStopwatch";
+					- _modifiedTimeWeak = 4.23.2018::16:44:25;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID e319cc49-a6ce-480a-861d-621984ae8cb4;
+					- _myState = 8192;
+					- _name = "stopStopwatch";
+					- _modifiedTimeWeak = 4.23.2018::16:44:32;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 35d71d53-114b-4c41-81cb-48ff03e6c662;
+					- _myState = 8192;
+					- _name = "resetStopwatch";
+					- _modifiedTimeWeak = 4.23.2018::16:44:38;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID dc3fca7e-6abe-404c-ba1f-b7dc839b9307;
+					- _myState = 8192;
+					- _name = "decreaseCountdown";
+					- _modifiedTimeWeak = 4.23.2018::16:44:59;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 434a61b6-90c7-4ccf-b417-b3904fbf9250;
+					- _myState = 8192;
+					- _name = "increaseCountdown";
+					- _modifiedTimeWeak = 4.23.2018::16:45:28;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID faaaa399-8515-4e8f-9ffd-cd934540162a;
+					- _myState = 8192;
+					- _name = "countSeconds";
+					- _modifiedTimeWeak = 4.23.2018::16:46:24;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID dbed4f82-180d-4d3d-8033-87326ad8b5e0;
+					- _myState = 8192;
+					- _name = "resetCountdown";
+					- _modifiedTimeWeak = 4.23.2018::16:49:6;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAttribute 
+					- _id = GUID e02a0813-1772-472f-8b20-3959fb9b702f;
+					- _myState = 8192;
+					- _name = "current_time_clock";
+					- _modifiedTimeWeak = 4.23.2018::16:47:35;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "long";
+						- _id = GUID 4d5eb3a0-ccb1-49a2-8f98-a5070f406b51;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID c696e09f-9aa0-402b-bd68-1c8df59fff08;
+					- _myState = 8192;
+					- _name = "current_time_stopwatch";
+					- _modifiedTimeWeak = 4.23.2018::16:48:6;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "long";
+						- _id = GUID 4d5eb3a0-ccb1-49a2-8f98-a5070f406b51;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 40fe26a7-a1d0-4d80-98a6-16eef0416fc2;
+					- _myState = 8192;
+					- _name = "current_time_timer";
+					- _modifiedTimeWeak = 4.23.2018::16:49:32;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesJava";
+						- _name = "long";
+						- _id = GUID 4d5eb3a0-ccb1-49a2-8f98-a5070f406b51;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 96ee293e-57bc-42ed-9865-d90317c8d1d6;
+					- _myState = 10240;
+					- _name = "itsLED";
+					- _modifiedTimeWeak = 4.23.2018::15:45:50;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 3dda0aaa-ea62-4c96-8e0d-a8a333c2744b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID c06ee1fb-bcf8-4989-a0a5-1c4e317834c5;
+					- _myState = 10240;
+					- _name = "itsDisplay";
+					- _modifiedTimeWeak = 4.23.2018::16:4:29;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9956d4a7-ef9c-4695-a3f7-6429bc8c8120;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6e6591a7-a9e2-46f9-b58c-1ff0d90c19e4;
+					- _myState = 10240;
+					- _name = "itsRadio_Unit";
+					- _modifiedTimeWeak = 4.23.2018::16:13:5;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6061df1a-0d04-4ace-af11-c17243d84098;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 		}
@@ -60,7 +711,18 @@ I-Logix-RPY-Archive version 8.14.0 Java 9810313
 					}
 				}
 			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _modifiedTimeWeak = 4.16.2018::14:49:57;
+			- _description = { IDescription 
+				- _text = "Preconditions:  The watch has to be powered on, the applications has to be successfully initialized and the clock mode needs to be enabled
+
+Process: The display displays the current time
+
+Exceptions: The radio unit did not get a signal -> The current time is 00:00:00
+
+Postconditions:
+
+It's important that the screen is able to refresh. Otherwise the screen will always show the same time.";
+			}
 			- _lastID = 1;
 			- weakCGTime = 4.16.2018::14:49:57;
 			- strongCGTime = 1.2.1990::0:0:0;
@@ -69,9 +731,6 @@ I-Logix-RPY-Archive version 8.14.0 Java 9810313
 				- _m2Class = "";
 			}
 			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -104,7 +763,19 @@ I-Logix-RPY-Archive version 8.14.0 Java 9810313
 					}
 				}
 			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _modifiedTimeWeak = 4.16.2018::14:51:17;
+			- _description = { IDescription 
+				- _text = "Preconditions:  The watch has to be powered on, the applications has to be successfully initialized
+
+Process: The screen gets refreshed, so a different time can be displayed.
+
+Exceptions:
+
+Postconditions:
+
+
+Count seconds has to work. Otherwise the display will always show the same time. (If the time doesn't get changed by the watch wearer)";
+			}
 			- _lastID = 1;
 			- weakCGTime = 4.16.2018::14:51:17;
 			- strongCGTime = 1.2.1990::0:0:0;
@@ -113,9 +784,6 @@ I-Logix-RPY-Archive version 8.14.0 Java 9810313
 				- _m2Class = "";
 			}
 			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -125,6 +793,15 @@ I-Logix-RPY-Archive version 8.14.0 Java 9810313
 			- _myState = 8192;
 			- _name = "Count seconds";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _description = { IDescription 
+				- _text = "Preconditions:  The watch has to be powered on and the applications has to be successfully initialized
+
+Process: The application keeps track of seconds, so the screen gets refresehd every second
+
+Exceptions:
+
+Postconditions:";
+			}
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
@@ -132,9 +809,6 @@ I-Logix-RPY-Archive version 8.14.0 Java 9810313
 				- _m2Class = "";
 			}
 			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -144,48 +818,8 @@ I-Logix-RPY-Archive version 8.14.0 Java 9810313
 			- _myState = 8192;
 			- _name = "Initialize application";
 			- Dependencies = { IRPYRawContainer 
-				- size = 3;
+				- size = 1;
 				- value = 
-				{ IDependency 
-					- _id = GUID 4ee0931e-68cb-489f-a2b9-4aa14462a16c;
-					- _myState = 2048;
-					- _name = "Recieve current time";
-					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _subsystem = "PredefinedTypes";
-							- _name = "include";
-							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
-						}
-					}
-					- _modifiedTimeWeak = 4.16.2018::14:56:53;
-					- _dependsOn = { INObjectHandle 
-						- _m2Class = "IUseCase";
-						- _id = GUID 8705ae93-a0bb-4b94-a9e3-57f4f4bccccf;
-					}
-				}
-				{ IDependency 
-					- _id = GUID ea005f82-ea8c-4bf0-b04c-9b5102d87848;
-					- _myState = 2048;
-					- _name = "use clock mode";
-					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _subsystem = "PredefinedTypes";
-							- _name = "include";
-							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
-						}
-					}
-					- _modifiedTimeWeak = 4.16.2018::15:31:37;
-					- _dependsOn = { INObjectHandle 
-						- _m2Class = "IUseCase";
-						- _id = GUID fea7fb1f-4f0c-4dd2-a148-3e9692d2c9d6;
-					}
-				}
 				{ IDependency 
 					- _id = GUID 46ca770c-0be5-438a-ac71-00fe7b343b4e;
 					- _myState = 2048;
@@ -207,15 +841,16 @@ I-Logix-RPY-Archive version 8.14.0 Java 9810313
 					}
 				}
 			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _modifiedTimeWeak = 4.16.2018::16:41:27;
 			- _description = { IDescription 
-				- _text = "Precondition: The watched got switched on by the watch wearer.
+				- _text = "Precondition: The watch got switched on by the watch wearer.
 
 Process: After the watch got powered on the application of the clock will be initialized.
 
 Exceptions:
 
-Postconditions: The radio unit of the watch receives a DSF-77 signal which is the current time that is needed to be displayed.
+Postconditions: The clock mode gets enabled. The radio unit of the watch receives a DSF-77 signal which is the current time that is needed to be displayed.
+
 ";
 			}
 			- _lastID = 4;
@@ -225,13 +860,7 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -241,11 +870,41 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 			- _myState = 8192;
 			- _name = "Recieve current time";
 			- Dependencies = { IRPYRawContainer 
-				- size = 0;
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID f7464d40-7586-41e7-8deb-e36ba20718bc;
+					- _myState = 2048;
+					- _name = "Initialize application";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _subsystem = "PredefinedTypes";
+							- _name = "include";
+							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
+						}
+					}
+					- _modifiedTimeWeak = 4.23.2018::11:53:3;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 66bc83ff-46f3-44c0-b9b7-99017abb1da8;
+					}
+				}
 			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastID = 2;
-			- weakCGTime = 1.2.1990::0:0:0;
+			- _modifiedTimeWeak = 4.23.2018::11:53:3;
+			- _description = { IDescription 
+				- _text = "Preconditions: The watch has to be powered on and the application has to be successfully initialized
+
+Process: The radio unit receives a DCF-77 signal, which is the current time needed to be displayed.
+
+Exceptions: The radio unit is not able to receive a signal
+
+Postconditions: -";
+			}
+			- _lastID = 3;
+			- weakCGTime = 4.23.2018::11:53:3;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -274,9 +933,6 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 				}
 			}
 			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -289,9 +945,9 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 				- size = 1;
 				- value = 
 				{ IDependency 
-					- _id = GUID b157b76f-a140-40b6-ba34-8f6dc33579ad;
+					- _id = GUID b2c33746-d57d-46e4-ac4b-ae524f748a9e;
 					- _myState = 2048;
-					- _name = "Refresh Screen";
+					- _name = "Display Time";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -302,16 +958,25 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2018::15:47:51;
+					- _modifiedTimeWeak = 4.23.2018::14:33:22;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IUseCase";
-						- _id = GUID 0e67f8cf-9a4d-42c2-ad62-d83394f368d9;
+						- _id = GUID b5f029b9-aa41-48f5-9ab3-ea90412d25d9;
 					}
 				}
 			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastID = 4;
-			- weakCGTime = 4.16.2018::15:47:51;
+			- _modifiedTimeWeak = 4.16.2018::15:47:51;
+			- _description = { IDescription 
+				- _text = "Preconditions: The watch has to be powered on, the applications has to be successfully initialized and clock mode has to be enabled
+
+Process: The watch wearer is able to change the current time.
+
+Exceptions:
+
+Postconditions: The screen needs to be refreshed (the new time is displayed)";
+			}
+			- _lastID = 5;
+			- weakCGTime = 4.23.2018::14:33:22;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -340,9 +1005,6 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 				}
 			}
 			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -352,7 +1014,7 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 			- _myState = 8192;
 			- _name = "use clock mode";
 			- Dependencies = { IRPYRawContainer 
-				- size = 1;
+				- size = 2;
 				- value = 
 				{ IDependency 
 					- _id = GUID 53791dc8-98cb-4484-95d1-7f28ca469b37;
@@ -374,10 +1036,39 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 						- _id = GUID b5f029b9-aa41-48f5-9ab3-ea90412d25d9;
 					}
 				}
+				{ IDependency 
+					- _id = GUID 7d164060-379d-4d7d-a4da-1863e2477a86;
+					- _myState = 2048;
+					- _name = "Initialize application";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _subsystem = "PredefinedTypes";
+							- _name = "include";
+							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
+						}
+					}
+					- _modifiedTimeWeak = 4.23.2018::11:48:58;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 66bc83ff-46f3-44c0-b9b7-99017abb1da8;
+					}
+				}
 			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastID = 1;
-			- weakCGTime = 4.16.2018::15:5:25;
+			- _modifiedTimeWeak = 4.23.2018::11:48:58;
+			- _description = { IDescription 
+				- _text = "Preconditions:  The watch has to be powered on and the applications has to be successfully initialized
+
+Process: The watch wearer can switch the current mode to the clock mode
+
+Exceptions:
+
+Postconditions: The screen needs to be refreshed";
+			}
+			- _lastID = 2;
+			- weakCGTime = 4.23.2018::11:48:58;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -406,9 +1097,6 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 				}
 			}
 			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -441,7 +1129,16 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 					}
 				}
 			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _modifiedTimeWeak = 4.16.2018::16:33:49;
+			- _description = { IDescription 
+				- _text = "Preconditions: The watch has to be powered on, the applications has to be successfully initialized and the clock mode needs to be enabled
+
+Process: The watch werare can increase the time
+
+Exceptions:
+
+Postconditions:";
+			}
 			- _lastID = 4;
 			- weakCGTime = 4.16.2018::16:33:49;
 			- strongCGTime = 1.2.1990::0:0:0;
@@ -450,9 +1147,6 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 				- _m2Class = "";
 			}
 			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -485,7 +1179,16 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 					}
 				}
 			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _modifiedTimeWeak = 4.16.2018::16:33:54;
+			- _description = { IDescription 
+				- _text = "Preconditions: The watch has to be powered on, the applications has to be successfully initialized and the clock mode needs to be enabled
+
+Process: The watch wearer can to decrease the time
+
+Exceptions:
+
+Postconditions:";
+			}
 			- _lastID = 4;
 			- weakCGTime = 4.16.2018::16:33:54;
 			- strongCGTime = 1.2.1990::0:0:0;
@@ -494,12 +1197,6 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 				- _m2Class = "";
 			}
 			- _classModifier = Unspecified;
-			- Diagrams = { IRPYRawContainer 
-				- size = 0;
-			}
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -509,6 +1206,15 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 			- _myState = 8192;
 			- _name = "Power on Watch";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _description = { IDescription 
+				- _text = "Precondition: The watch is turned off
+
+Process: The watch gets turned on by the watch wearer.
+
+Exception: Problems by powering the watch
+
+Postconditions: The application gets initialized";
+			}
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
@@ -538,9 +1244,6 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 				}
 			}
 			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -553,12 +1256,9 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 			- _id = GUID ec1bb3f9-86ce-415d-af46-6b5dcdff3430;
 			- _myState = 8192;
 			- _name = "watch_wearer";
-			- Dependencies = { IRPYRawContainer 
-				- size = 0;
-			}
-			- _modifiedTimeWeak = 4.16.2018::16:41:2;
-			- weakCGTime = 4.16.2018::16:41:2;
-			- strongCGTime = 4.16.2018::15:36:14;
+			- _modifiedTimeWeak = 4.23.2018::15:44:27;
+			- weakCGTime = 4.23.2018::15:44:27;
+			- strongCGTime = 4.23.2018::15:44:27;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -627,9 +1327,9 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 			- _id = GUID ec119055-601e-4b72-8731-ce00b210ddb9;
 			- _myState = 8192;
 			- _name = "radio_unit";
-			- _modifiedTimeWeak = 4.16.2018::16:11:6;
-			- weakCGTime = 4.16.2018::16:11:6;
-			- strongCGTime = 4.16.2018::15:35:48;
+			- _modifiedTimeWeak = 4.23.2018::15:44:27;
+			- weakCGTime = 4.23.2018::15:44:27;
+			- strongCGTime = 4.23.2018::15:44:27;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -659,6 +1359,6 @@ Postconditions: The radio unit of the watch receives a DSF-77 signal which is th
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 1.1.1970::1:0:0;
+	- _configurationRelatedTime = 4.23.2018::15:42:43;
 }
 
